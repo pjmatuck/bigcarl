@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style/basic.uss?fileID=7433441132597879392&amp;guid=c358352c2a90d3a4392a7210543c65a3&amp;type=3#basic"/>
+    <ui:VisualElement name="MainContainer" style="flex-grow: 4;">
+        <ui:Image name="Background">
+            <ui:Label text="Carl&#227;o, o N&#225;ufrago" name="GameTitle" style="font-size: 35px; text-shadow: 2px 4px 0 rgb(133, 111, 238); -unity-font-style: bold;"/>
+        </ui:Image>
+    </ui:VisualElement>
+    <ui:VisualElement name="ButtonsContainer" style="flex-grow: 1; margin-right: 200px; margin-left: 200px; bottom: 0; align-self: center; align-content: auto; align-items: stretch; justify-content: center;">
+        <ui:Button text="Start" name="StartButton" style="height: 100px; width: 300px; font-size: 40px;"/>
+        <ui:Button text="Credits " name="CreditsButton" style="width: 300px; height: 100px; font-size: 40px;"/>
+        <ui:Button text="Quit" name="QuitButton" style="width: 300px; height: 100px; font-size: 40px;"/>
+    </ui:VisualElement>
+</ui:UXML>
